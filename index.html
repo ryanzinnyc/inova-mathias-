@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dom Casmurro — A Imortalidade de Machado de Assis</title>
+
+  <!-- Google Fonts: Cormorant Garamond (display) + Spectral (corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cormorant+SC:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Folha de estilos externa -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Cursor personalizado dourado -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- ===================================================
+       NAVEGAÇÃO FIXA
+  ==================================================== -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">Dom Casmurro</a>
+    <ul class="nav-links">
+      <li><a href="#intro">Obra</a></li>
+      <li><a href="#abl">Academia</a></li>
+      <li><a href="#timeline">Cronologia</a></li>
+      <li><a href="#gallery">Galeria</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================================================
+       HERO — Tela de entrada
+  ==================================================== -->
+  <section id="hero">
+    <div class="hero-lines">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Machado de Assis · Academia Brasileira de Letras</p>
+      <h1 class="hero-title">
+        Dom<br>
+        <em>Casmurro</em>
+      </h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">
+        "A imortalidade não se concede — ela se conquista, linha a linha,
+        na tinta que atravessa séculos."
+      </p>
+      <a href="#intro" class="hero-cta">Descobrir a obra</a>
+    </div>
+    <div class="scroll-hint">
+      <span>Rolar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       INTRO — A obra prima
+  ==================================================== -->
+  <section id="intro">
+    <div class="intro-text-block">
+      <p class="section-label reveal">A obra prima</p>
+      <div class="gold-rule reveal delay-1"></div>
+      <h2 class="section-heading reveal delay-1">
+        O romance que<br>
+        <em>redefiniu</em><br>
+        a literatura
+      </h2>
+      <p class="body-text reveal delay-2">
+        Publicado em 1899, <em>Dom Casmurro</em> é considerado o maior romance
+        do Realismo brasileiro. Através do narrador não-confiável Bentinho —
+        o Dom Casmurro do título —, Machado de Assis constrói uma das
+        narrativas mais perturbadoras e ambíguas da literatura universal.
+      </p>
+      <br>
+      <p class="body-text reveal delay-3">
+        A pergunta que persiste há mais de um século — Capitu traiu ou não
+        traiu Bentinho? — não é uma falha narrativa: é o mais engenhoso dos
+        artifícios literários. Machado transformou a dúvida em obra-prima.
+      </p>
+    </div>
+
+    <blockquote class="intro-quote reveal-right delay-2">
+      <p>
+        "Agora, por que é que nenhuma dessas caprichosas me fez esquecer
+        a primeira amada do meu coração? Talvez porque nenhuma tinha os
+        olhos de ressaca de Capitu."
+      </p>
+      <cite>— Dom Casmurro, Cap. CXLVIII</cite>
+    </blockquote>
+  </section>
+
+  <!-- ===================================================
+       FAIXA PARALLAX 1
+  ==================================================== -->
+  <div class="parallax-band">
+    <div class="parallax-inner reveal">
+      <p class="parallax-band-text">
+        "O tempo é um tecido invisível em que<br>
+        se pode bordar tudo."
+        <span>Machado de Assis</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================================================
+       ABL — Academia Brasileira de Letras
+  ==================================================== -->
+  <section id="abl">
+    <div class="abl-inner">
+
+      <!-- Lado visual: badge animado com anéis -->
+      <div class="abl-visual reveal-left">
+        <div class="abl-badge">
+          <div class="abl-badge-ring"></div>
+          <div class="abl-badge-ring"></div>
+          <div class="abl-badge-ring"></div>
+          <div class="abl-badge-center">
+            <div class="abl-badge-number">I</div>
+            <div class="abl-badge-label">Cadeira Fundadora · ABL</div>
+          </div>
+        </div>
+        <!-- Cartões flutuantes -->
+        <div class="abl-float-card">
+          <span class="card-year">1897</span>
+          <span class="card-text">Fundação da Academia</span>
+        </div>
+        <div class="abl-float-card">
+          <span class="card-year">1896</span>
+          <span class="card-text">Primeira reunião preparatória</span>
+        </div>
+        <div class="abl-float-card">
+          <span class="card-year">1908</span>
+          <span class="card-text">Presidente vitalício</span>
+        </div>
+      </div>
+
+      <!-- Lado textual -->
+      <div class="abl-text reveal-right">
+        <p class="section-label">Academia Brasileira de Letras</p>
+        <div class="gold-rule"></div>
+        <h2 class="section-heading">
+          O fundador<br>
+          <em>imortal</em>
+        </h2>
+        <p class="body-text">
+          Em 15 de dezembro de 1896, Machado de Assis reuniu um grupo de
+          intelectuais na redação da <em>Revista Brasileira</em> para fundar
+          a Academia Brasileira de Letras — instituição moldada à semelhança
+          da Académie française, com 40 cadeiras e o conceito de imortalidade.
+        </p>
+        <br>
+        <p class="body-text delay-1">
+          Machado não apenas fundou a ABL: presidiu-a do início até sua morte,
+          em 1908. A cadeira de número 1, que patrona Olavo Bilac, foi por
+          ele ocupada. Sua figura tornou-se inseparável da própria ideia de
+          cânone literário brasileiro.
+        </p>
+
+        <!-- Estatísticas animadas via JS -->
+        <div class="abl-stats reveal delay-2">
+          <div class="stat-item">
+            <div class="stat-number">40</div>
+            <span class="stat-label">Cadeiras Imortais</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1897</div>
+            <span class="stat-label">Ano de Fundação</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">11</div>
+            <span class="stat-label">Anos na Presidência</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">9</div>
+            <span class="stat-label">Romances Publicados</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================
+       TIMELINE — Linha do tempo animada
+  ==================================================== -->
+  <section id="timeline">
+    <div class="timeline-header">
+      <p class="section-label reveal">Cronologia</p>
+      <div class="gold-rule reveal delay-1" style="margin: 0 auto 1.5rem;"></div>
+      <h2 class="section-heading reveal delay-2">
+        Uma vida entre<br>
+        <em>tinta e eternidade</em>
+      </h2>
+    </div>
+
+    <div class="timeline-track">
+
+      <div class="timeline-item">
+        <div class="tl-content reveal-left">
+          <div class="tl-year">1839</div>
+          <div class="tl-title">O Nascimento</div>
+          <p class="tl-desc">Joaquim Maria Machado de Assis nasce no Morro do Livramento, Rio de Janeiro, filho de um pintor de paredes mulato e uma lavadeira açoriana.</p>
+        </div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-spacer"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-spacer"></div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-content reveal-right">
+          <div class="tl-year">1855</div>
+          <div class="tl-title">Primeiros Versos</div>
+          <p class="tl-desc">Publica seu primeiro poema, "Ela", no jornal <em>Marmota Fluminense</em>. O jovem tipógrafo autodidata começa a forjar sua voz literária.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-content reveal-left">
+          <div class="tl-year">1864</div>
+          <div class="tl-title">Contos Fluminenses</div>
+          <p class="tl-desc">Primeira coletânea de contos publicada. Machado firma-se na cena literária carioca, apesar das dificuldades sociais que enfrentava.</p>
+        </div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-spacer"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-spacer"></div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-content reveal-right">
+          <div class="tl-year">1881</div>
+          <div class="tl-title">Memórias Póstumas</div>
+          <p class="tl-desc">Publicação de <em>Memórias Póstumas de Brás Cubas</em> — obra que inaugura o Realismo no Brasil e funda a segunda e genial fase machadiana.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-content reveal-left">
+          <div class="tl-year">1896</div>
+          <div class="tl-title">Fundação da ABL</div>
+          <p class="tl-desc">Machado organiza as reuniões preparatórias e lidera a fundação da Academia Brasileira de Letras, tornando-se seu primeiro e eterno presidente.</p>
+        </div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-spacer"></div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-spacer"></div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-content reveal-right">
+          <div class="tl-year">1899</div>
+          <div class="tl-title">Dom Casmurro</div>
+          <p class="tl-desc">O romance de Bentinho e Capitu é lançado. A ambiguidade narrativa e os "olhos de ressaca" de Capitu passam a assombrar gerações de leitores.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-content reveal-left">
+          <div class="tl-year">1908</div>
+          <div class="tl-title">A Imortalidade</div>
+          <p class="tl-desc">Machado de Assis falece em 29 de setembro, às 3h30 da manhã. O Brasil perde seu maior escritor — mas a literatura ganha um imortal.</p>
+        </div>
+        <div class="tl-dot"><div class="tl-dot-inner"></div></div>
+        <div class="tl-spacer"></div>
+      </div>
+
+    </div><!-- /.timeline-track -->
+  </section>
+
+  <!-- ===================================================
+       GALLERY — Carrossel de capas
+  ==================================================== -->
+  <section id="gallery">
+    <div class="gallery-header">
+      <p class="section-label reveal">Obras &amp; Edições</p>
+      <div class="gold-rule reveal delay-1" style="margin: 0.5rem auto 1.5rem;"></div>
+      <h2 class="section-heading reveal delay-2">
+        Uma biblioteca<br>
+        <em>imortal</em>
+      </h2>
+    </div>
+
+    <div class="gallery-track-wrap">
+      <!-- O track é duplicado para criar loop contínuo seamless -->
+      <div class="gallery-track" id="galleryTrack">
+
+        <!-- Capa 1 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-1">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✦</div>
+            <div class="book-year-badge">1899</div>
+            <div class="book-title"><em>Dom Casmurro</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Capa 2 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-2">
+            <div class="book-spine"></div>
+            <div class="book-ornament">◆</div>
+            <div class="book-year-badge">1881</div>
+            <div class="book-title">Memórias Póstumas<em>de Brás Cubas</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Capa 3 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-3">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✧</div>
+            <div class="book-year-badge">1891</div>
+            <div class="book-title"><em>Quincas Borba</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Capa 4 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-4">
+            <div class="book-spine"></div>
+            <div class="book-ornament">◉</div>
+            <div class="book-year-badge">1896</div>
+            <div class="book-title">Várias<em>Histórias</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Capa 5 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-5">
+            <div class="book-spine"></div>
+            <div class="book-ornament">⊕</div>
+            <div class="book-year-badge">1904</div>
+            <div class="book-title"><em>Esaú e Jacó</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Capa 6 -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-6">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✦</div>
+            <div class="book-year-badge">1908</div>
+            <div class="book-title">Memorial<em>de Aires</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+        <!-- Duplicatas para loop seamless -->
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-1">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✦</div>
+            <div class="book-year-badge">1899</div>
+            <div class="book-title"><em>Dom Casmurro</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-2">
+            <div class="book-spine"></div>
+            <div class="book-ornament">◆</div>
+            <div class="book-year-badge">1881</div>
+            <div class="book-title">Memórias Póstumas<em>de Brás Cubas</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-3">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✧</div>
+            <div class="book-year-badge">1891</div>
+            <div class="book-title"><em>Quincas Borba</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-4">
+            <div class="book-spine"></div>
+            <div class="book-ornament">◉</div>
+            <div class="book-year-badge">1896</div>
+            <div class="book-title">Várias<em>Histórias</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-5">
+            <div class="book-spine"></div>
+            <div class="book-ornament">⊕</div>
+            <div class="book-year-badge">1904</div>
+            <div class="book-title"><em>Esaú e Jacó</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-card-bg book-cover book-6">
+            <div class="book-spine"></div>
+            <div class="book-ornament">✦</div>
+            <div class="book-year-badge">1908</div>
+            <div class="book-title">Memorial<em>de Aires</em></div>
+            <div class="book-author">Machado de Assis</div>
+          </div>
+          <div class="gallery-card-overlay"></div>
+          <div class="gallery-card-hover-rule"></div>
+        </div>
+
+      </div><!-- /.gallery-track -->
+    </div><!-- /.gallery-track-wrap -->
+  </section>
+
+  <!-- ===================================================
+       CITAÇÃO DIVISÓRIA
+  ==================================================== -->
+  <section id="quote-divider">
+    <blockquote class="big-quote reveal">
+      "Não me peças que resolva o que não tem resolução, ou que explique
+      o que não tem explicação; contenta-te com o espetáculo."
+      <cite>— Memórias Póstumas de Brás Cubas</cite>
+    </blockquote>
+  </section>
+
+  <!-- ===================================================
+       FAIXA PARALLAX 2
+  ==================================================== -->
+  <div class="parallax-band" style="background: var(--rust);">
+    <div class="parallax-inner reveal">
+      <p class="parallax-band-text">
+        "Capitu era Capitu, isto é,<br>uma criatura mui particular."
+        <span>Dom Casmurro, Cap. XXIII</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================================================
+       RODAPÉ
+  ==================================================== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand reveal">
+        <div class="brand-name">Dom<br><em>Casmurro</em></div>
+        <p>Um tributo à obra e ao legado de Joaquim Maria Machado de Assis, o bruxo do Cosme Velho.</p>
+      </div>
+      <div class="footer-col reveal delay-1">
+        <h4>Obras</h4>
+        <ul>
+          <li><a href="#">Dom Casmurro</a></li>
+          <li><a href="#">Memórias Póstumas</a></li>
+          <li><a href="#">Quincas Borba</a></li>
+          <li><a href="#">Esaú e Jacó</a></li>
+          <li><a href="#">Memorial de Aires</a></li>
+        </ul>
+      </div>
+      <div class="footer-col reveal delay-2">
+        <h4>Academia</h4>
+        <ul>
+          <li><a href="https://www.academia.org.br" target="_blank" rel="noopener">Site Oficial ABL</a></li>
+          <li><a href="#">Cadeira Nº 1</a></li>
+          <li><a href="#">Imortais Fundadores</a></li>
+          <li><a href="#">Arquivo Histórico</a></li>
+        </ul>
+      </div>
+      <div class="footer-col reveal delay-3">
+        <h4>Referências</h4>
+        <ul>
+          <li><a href="#">Helen Caldwell, 1960</a></li>
+          <li><a href="#">Alfredo Bosi — Crítica e Poesia</a></li>
+          <li><a href="#">Roberto Schwarz — Um Mestre</a></li>
+          <li><a href="#">Projeto Machado de Assis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 — Projeto de homenagem literária. Domínio público.</p>
+      <div class="footer-logo-mark">M. de Assis</div>
+    </div>
+  </footer>
+
+  <!-- Script externo — carregado no final do body para não bloquear renderização -->
+  <script src="script.js"></script>
+</body>
+</html>
